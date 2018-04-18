@@ -45,8 +45,6 @@ public class Chapter1Problem9 {
 		return str.toLowerCase();
 	}
 
-
-
 	private static String getWordTwo() {
 		input2 = new Scanner(System.in);
 		System.out.println("Enter the second word:");
