@@ -6,18 +6,22 @@
  * 
  */
 public class Chapter2Problem3 {
+	private static Node head;
+
 	public static void main(String[] args) {
-		/*Implement an algorithm to delete the a node in the middle of a singly linked list, given only access to the first node
-		 */
-		Node head = null;
+		head = null;
+		head.data =6;
+		head.next.data = 7;
+		head.next.next.data =8;
 		boolean canBeDeleted = deleteNode(head);
 		if(canBeDeleted)
-			System.out.println("Deletion sucessful");
+			System.out.println("Deletion is possible ");
 		else
-			System.out.println("Deletion failed.");	
+			System.out.println("Deletion will failed.");	
 	}	
 	
 	/*INITIAL QUESTIONS && Assumptions
+	 * Middle means any element that is not the first element
 	 * 
 	 */
 

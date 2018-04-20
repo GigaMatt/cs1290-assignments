@@ -10,6 +10,10 @@ import java.util.*;
 public class Chapter3Problem5 {
 	private static Scanner input;
 	public static void main(String args[]) {
+		
+		/*Write code to remove duplicates from an unsorted linked list
+		 */
+		
 		Stack firstStack = new Stack();
 		Stack secondStack = new Stack();
 		input = new Scanner(System.in);

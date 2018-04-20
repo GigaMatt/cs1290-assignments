@@ -21,6 +21,10 @@ public class Chapter2Problem1 {
 
 	private static void removeDuplicates() {
 		Node head = null;
+		head.data = 5;
+		head.next.data = 2;
+		head.next.next.data = 13;
+		head.next.next.next.data = 1;
 		Node temp = null;
 		
 		while(head!=null &&head.next!=null) {
