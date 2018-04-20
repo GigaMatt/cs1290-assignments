@@ -57,7 +57,9 @@ public class Chapter1Problem9 {
 	}
 
 	private static boolean checkRotation(String str, String str2) {
-		// TODO Auto-generated method stub
+		str2 = str2+str2;
+		if(str.isSubstring(str2))
+			return true;
 		return false;
 	}
 
